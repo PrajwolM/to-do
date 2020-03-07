@@ -1,0 +1,11 @@
+in StarR
+make db2.sqlite3
+-with 6 rows and 2 cols
+connect db2.sqlite3
+when the rating is done:
+-'product'(line 105) selects the rows and columns in db
+-'ratings[product]'(line 116) takes input(say in r)
+-fmla in column (avg=(avg+r)/2)
+
+In StarRating 
+take avg values from db2.sqlite3 cols
